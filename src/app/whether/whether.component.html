@@ -1,0 +1,19 @@
+<div class="container">
+
+<label for="">Search here</label>&nbsp;
+  <input type="text" placeholder="type for search">&nbsp;
+<button class="btn btn-primary">Search</button>
+<br><br>
+
+<div id="divWeatherMain">
+
+        <div class="WeatherWidthRow" style="font-size: 32px;margin-top: 5px;">{{WeatherData.temp_celcius}}&#176;</div>
+        <div class="WeatherWidthRow" style="font-size: 12px;">{{WeatherData.temp_min}}&#176; / {{WeatherData.temp_max}}&#176;</div>
+        <div class="WeatherWidthRow" style="font-size: 12px;">Feels like {{WeatherData.temp_feels_like}}&#176;</div>
+        <div class="WeatherWidthRow" style="font-size: 25px;margin-top: 10px;">{{WeatherData.name}}</div>
+        <div class="WeatherWidthRow" style="font-size: 12px;">Humidity {{WeatherData.main.humidity}}%</div>
+      </div>
+       
+        
+        
+    </div>
